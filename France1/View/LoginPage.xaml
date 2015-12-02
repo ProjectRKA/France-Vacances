@@ -39,6 +39,26 @@
             Margin="95,0,0,0" 
             Click="BackButton1_Click"
             />
+        <ListView 
+            Grid.Row="1"
+            Grid.Column="1"            
+            x:Name="LoginInformation"             
+            Height="auto" 
+            Margin="0,0,0,-605" 
+            VerticalAlignment="Top" 
+            Width="auto">
+            <TextBox 
+                Height="20"
+                Width="300"
+                HorizontalAlignment="Center"
+                />
+            
+
+        </ListView>
+    
+             
+            
+
 
     </Grid>
 </Page>
