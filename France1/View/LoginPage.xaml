@@ -51,8 +51,17 @@
                 Height="20"
                 Width="300"
                 HorizontalAlignment="Center"
+                Margin="270,0,0,0"
+                PlaceholderText="Username/Email"
                 />
-            
+            <PasswordBox
+                Height="20"
+                Width="300"
+                HorizontalAlignment="Center"
+                Margin="270,0,0,0"
+                PlaceholderText="Password"
+                
+                />
 
         </ListView>
     
