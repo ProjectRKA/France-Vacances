@@ -31,5 +31,10 @@ namespace France1.View
         {
             this.Frame.GoBack();
         }
+
+        private void HomeButton1_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(HomePage));
+        }
     }
 }

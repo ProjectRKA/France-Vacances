@@ -29,7 +29,7 @@
             x:Name="HomeButton1"
             Content="Home"
             Width="85"
-            Margin="5,0,0,0"
+            Margin="5,0,0,0" Click="HomeButton1_Click"
             />
         <Button
             Grid.Row="0"
