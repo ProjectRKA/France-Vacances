@@ -30,7 +30,7 @@ namespace France1.Model
                 return false;
             else
                 return Equals(Customer1);
-            return base.Equals(obj);
+            return Equals(obj);
         }
         public override int GetHashCode()
         {
