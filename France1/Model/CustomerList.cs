@@ -8,20 +8,20 @@ namespace France1.Model
 {
     class CustomerList
     {
-        private string x; //username
-        private string y; //password
+        private string username; //x 
+        private string password; //y
 
         private List<Customer> list;
 
         public string Username
         {
-            get { return x; }
-            set { x = value; }
+            get { return username; }
+            set { password = value; }
         }
         public string Password
         {
-            get { return y; }
-            set { y = value; }
+            get { return password; }
+            set { password = value; }
         }
 
         public CustomerList()
@@ -31,9 +31,9 @@ namespace France1.Model
 
         public void Register()
         {
-            list.Add(new Customer(x, y));
-            x = null;
-            y = null;
+            list.Add(new Customer(username, password));
+            username = null;
+            password = null;
         }
     }
     

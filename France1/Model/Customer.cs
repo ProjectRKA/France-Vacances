@@ -13,13 +13,13 @@ namespace France1.Model
         private string _password;
         private string _username;
 
-        public Customer(string x, string y)
+        public Customer()
         {
-            this._x = x;
-            this._y = y;
+            
+            
         }
 
-        public Customer(string password, string, username)
+        public Customer(string password, string username)
         {
             this._password = password;
             this._username = username;
