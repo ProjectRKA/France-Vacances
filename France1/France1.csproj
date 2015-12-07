@@ -100,6 +100,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\Customer1.cs" />
     <Compile Include="Model\CustomerList.cs" />
     <Compile Include="View\CityPage3.xaml.cs">
       <DependentUpon>CityPage3.xaml</DependentUpon>
