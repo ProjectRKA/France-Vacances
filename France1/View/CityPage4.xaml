@@ -8,6 +8,77 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40">
+            </RowDefinition>
+            <RowDefinition Height="auto">
+            </RowDefinition>
+            <RowDefinition Height="auto">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200">
+            </ColumnDefinition>
+            <ColumnDefinition Width="auto">
+            </ColumnDefinition>
+            <ColumnDefinition Width="auto">
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button
+            Grid.Row="1" 
+            Grid.Column="0" 
+            Width="180"
+            Height="60"
+            Margin="10,24,0,421"
+            x:Name="City0"
+            Content="City0"
+            />
+        <Button
+            Grid.Row="1" 
+            Grid.Column="0" 
+            Width="180"
+            Height="60"
+            Margin="10,99,0,346"
+            x:Name="City1"
+            Content="City1"
+            />
+        <Button
+            Grid.Row="1" 
+            Grid.Column="0" 
+            Width="180"
+            Height="60"
+            Margin="10,174,0,271"
+            x:Name="City2"
+            Content="City2"
+            />
+        <Button
+            Grid.Row="1" 
+            Grid.Column="0" 
+            Width="180"
+            Height="60"
+            Margin="10,247,0,198"
+            x:Name="City3"
+            Content="City3"
+            />
+        <Button
+        	Grid.Row="1" 
+        	Grid.Column="0" 
+        	Width="180"
+        	Height="60"
+        	Margin="10,320,0,125"
+        	x:Name="City4"
+        	Content="City4"
+            />
+        <Button
+        	Grid.Row="1" 
+        	Grid.Column="0" 
+        	Width="180"
+        	Height="60"
+        	Margin="10,393,0,52"
+        	x:Name="City5"
+        	Content="City5"
+            />
 
     </Grid>
 </Page>
