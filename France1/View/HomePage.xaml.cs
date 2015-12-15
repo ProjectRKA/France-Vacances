@@ -36,5 +36,10 @@ namespace France1.View
         {
             Frame.Navigate(typeof(RegisterPage));
         }
+
+        private void city0_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(CityPage0));
+        }
     }
 }

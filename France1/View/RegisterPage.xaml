@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="#181818">
         <Grid.RowDefinitions>
             <RowDefinition Height="40">
             </RowDefinition>
@@ -29,7 +29,12 @@
             x:Name="HomeButton2"
             Content="Home"
             Width="85"
-            Margin="5,0,0,0" Click="HomeButton2_Click"
+            Margin="5,0,0,0" 
+            Click="HomeButton2_Click"
+            Background="#181818"
+            BorderThickness="2"
+            BorderBrush="#2f2e2e"
+            Foreground="#2f2e2e"
             />
         <Button
             Grid.Row="0"
@@ -38,6 +43,10 @@
             Width="85"
             Margin="95,0,0,0" 
             Click="BackButton2_Click"
+            Background="#181818"
+            BorderThickness="2"
+            BorderBrush="#2f2e2e"
+            Foreground="#2f2e2e"
             />
 
     </Grid>

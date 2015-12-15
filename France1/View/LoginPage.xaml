@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="#181818">
         <Grid.RowDefinitions>
             <RowDefinition Height="40">
             </RowDefinition>
@@ -29,7 +29,12 @@
             x:Name="HomeButton1"
             Content="Home"
             Width="85"
-            Margin="5,0,0,0" Click="HomeButton1_Click"
+            Margin="5,0,0,0" 
+            Click="HomeButton1_Click"
+            Background="#181818"
+            BorderThickness="2"
+            BorderBrush="#2f2e2e"
+            Foreground="#2f2e2e"
             />
         <Button
             Grid.Row="0"
@@ -38,6 +43,10 @@
             Width="85"
             Margin="95,0,0,0" 
             Click="BackButton1_Click"
+            Background="#181818"
+            BorderThickness="2"
+            BorderBrush="#2f2e2e"
+            Foreground="#2f2e2e"
             />
         <ListView 
             Grid.Row="1"
@@ -46,13 +55,19 @@
             Height="auto" 
             Margin="0,0,0,-605" 
             VerticalAlignment="Top" 
-            Width="auto">
+            Width="auto"
+            
+            >
             <TextBox 
                 Height="20"
                 Width="300"
                 HorizontalAlignment="Center"
                 Margin="270,0,0,0"
                 PlaceholderText="Username/Email"
+                Background="#181818"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Foreground="#2f2e2e"
                 />
             <PasswordBox
                 Height="20"
@@ -60,6 +75,11 @@
                 HorizontalAlignment="Center"
                 Margin="270,0,0,0"
                 PlaceholderText="Password"
+                Background="#181818"
+            BorderThickness="2"
+            BorderBrush="#2f2e2e"
+            Foreground="#2f2e2e"
+                
                 
                 />
 

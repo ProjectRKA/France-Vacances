@@ -7,7 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="#181818">
+        
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="40">
             </RowDefinition>
@@ -30,7 +32,12 @@
             Height="30"
             Width="85"
             Content="Login"
-            x:Name="LoginButton1" Click="LoginButton1_Click"
+            x:Name="LoginButton1" 
+            Click="LoginButton1_Click"
+            Background="#181818"
+            BorderThickness="2"
+            BorderBrush="#2f2e2e"
+            Foreground="#2f2e2e"
             />
         <Button
             Grid.Row="0"
@@ -39,7 +46,12 @@
             Width="85"
             Content="Register"
             x:Name="RegisterButton1"
-            Margin="95,0,0,0" Click="RegisterButton1_Click"
+            Margin="95,0,0,0" 
+            Click="RegisterButton1_Click"
+            Background="#181818"
+            BorderThickness="2"
+            BorderBrush="#2f2e2e"
+            Foreground="#2f2e2e"
             />
         <ListView 
             Grid.Row="1"
@@ -50,13 +62,19 @@
             VerticalAlignment="Top" 
             Width="auto"
             Header="Browse Cities"
-            FontSize="30">
+            FontSize="30"
+            Foreground="#2f2e2e">
             <Button 
                 Width="80"
                 Height="35"
                 Content="Paris"
                 x:Name="city0"
-                Margin="0,0,0,0"
+                Margin="0,0,0,0" 
+                Click="city0_Click"
+                Background="#181818"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Foreground="#2f2e2e"
                 />
             <Button 
                 Width="80"
@@ -64,6 +82,10 @@
                 Content="Calais"
                 x:Name="city1" 
                 Margin="95,-87,0,0"
+                Background="#181818"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Foreground="#2f2e2e"
                 />
             <Button 
                 Width="80"
@@ -71,6 +93,10 @@
                 Content="city"
                 x:Name="city2"
                 Margin="0,-82,0,0"
+                Background="#181818"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Foreground="#2f2e2e"
                 />
             <Button 
                 Width="80"
@@ -78,6 +104,32 @@
                 Content="city"
                 x:Name="city3" 
                 Margin="95,-170,0,0"
+                Background="#181818"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Foreground="#2f2e2e"
+                />
+            <Button 
+                Width="80"
+                Height="35"
+                Content="city"
+                x:Name="city4"
+                Margin="0,-168,0,0"
+                Background="#181818"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Foreground="#2f2e2e"
+                />
+            <Button 
+                Width="80"
+                Height="35"
+                Content="city"
+                x:Name="city5" 
+                Margin="95,-255,0,0"
+                Background="#181818"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Foreground="#2f2e2e"
                 />
 
         </ListView>

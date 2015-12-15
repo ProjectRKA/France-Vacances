@@ -31,5 +31,10 @@ namespace France1.View
         {
 
         }
+
+        private void BookNow_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(BookingPage01));
+        }
     }
 }
