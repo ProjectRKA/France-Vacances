@@ -99,9 +99,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\Customer.cs" />
-    <Compile Include="Model\Customer1.cs" />
-    <Compile Include="Model\CustomerList.cs" />
     <Compile Include="View\BookingPage01.xaml.cs">
       <DependentUpon>BookingPage01.xaml</DependentUpon>
     </Compile>
@@ -190,6 +187,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
