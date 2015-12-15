@@ -102,6 +102,9 @@
     <Compile Include="Model\Customer.cs" />
     <Compile Include="Model\Customer1.cs" />
     <Compile Include="Model\CustomerList.cs" />
+    <Compile Include="View\BookingPage01.xaml.cs">
+      <DependentUpon>BookingPage01.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\CityPage3.xaml.cs">
       <DependentUpon>CityPage3.xaml</DependentUpon>
     </Compile>
@@ -149,6 +152,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="View\BookingPage01.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\CityPage3.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
