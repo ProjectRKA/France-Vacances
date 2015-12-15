@@ -11,7 +11,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="40">
             </RowDefinition>
-            <RowDefinition Height="150">
+            <RowDefinition Height="auto">
             </RowDefinition>
             <RowDefinition Height="100">
             </RowDefinition>
@@ -48,6 +48,64 @@
             BorderBrush="#2f2e2e"
             Foreground="#2f2e2e"
             />
+        <ListView Grid.Row="1"
+                  Grid.Column="1"
+                  HorizontalAlignment="Center"
+                  Margin="0,140,0,0"
+                  Width="280">
+            <TextBox
+                Width="250"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Foreground="#2f2e2e"
+                PlaceholderText="Name"
+                />
+            <TextBox
+                Width="250"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Foreground="#2f2e2e"
+                PlaceholderText="Last name"
+                />
+            <TextBox
+                Width="250"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Foreground="#2f2e2e"
+                PlaceholderText="Username"
+                />
+            <TextBox
+                Width="250"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Foreground="#2f2e2e"
+                PlaceholderText="Email"
+                />
+            <TextBox
+                Width="250"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Foreground="#2f2e2e"
+                PlaceholderText="Password"
+                />
+            <TextBox
+                Width="250"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Foreground="#2f2e2e"
+                PlaceholderText="Repeat password"
+                />
+            <Button
+                Width="250"
+                x:Name="RegisterButton"
+                Content="Register"
+                BorderThickness="2"
+                BorderBrush="#2f2e2e"
+                Background="#181818"
+                Foreground="#2f2e2e"
+                />
+
+        </ListView>
 
     </Grid>
 </Page>

@@ -7,7 +7,28 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="#181818">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40">
+            </RowDefinition>
+            <RowDefinition Height="auto">
+            </RowDefinition>
+            <RowDefinition Height="auto">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200">
+            </ColumnDefinition>
+            <ColumnDefinition Width="auto">
+            </ColumnDefinition>
+            <ColumnDefinition Width="auto">
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ListView>
+            
+        </ListView>
+        
+        
 
     </Grid>
 </Page>
